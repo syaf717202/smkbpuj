@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://unpkg.com/lucide@latest"></script> <!-- Optional icon set -->
+
+	</head>
+	
+	<body>
+
+		<header>
+			<!-- Logo container -->
+			<div class="logo">
+			  <a href="index.html"><img src="img/logo.png" alt="Logo PSS"></a>
+			</div>
+			
+			
+			<!-- Navigation Menu container -->
+			<nav>
+			  <ul class="menu">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="aboutus.html" target="_blank">ABOUT US</a></li>
+				<div class="dropdown">
+					<button class="dropbtn">PROGRAM</button>
+					<div class="dropdown-content">
+					  <a href="pss.html" target="_blank">PSS Activity</a>
+					  <a href="nilam.html" target="_blank">NILAM</a>
+					</div>
+				  </div> 
+				<li><a href="resources.html" target="_blank">RESOURCES</a></li>
+				<li><a href="checkin.html" target="_blank">CHECK-IN</a></li>
+				<li><a href="contact.html" target="_blank">CONTACT US</a></li>
+				<li><a href="aboutme.html" target="_blank">ABOUT ME</a></li>
+
+			  </ul>
+			</nav>
+		</header>
+	
+	
+	
+		<!-- Slideshow container -->
+			<div class="slideshow-container">
+
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+
+			  <!-- Full-width images with number and caption text -->
+			  <div class="mySlides fade">
+				<img src="img/b1.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+				<img src="img/b2.png" style="width:100%">
+			  </div>
+
+			  <div class="mySlides fade">
+				<img src="img/b3.png" style="width:100%">
+			  </div>
+
+
+			  <!-- Next and previous buttons -->
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<script src="js.js"></script>
+		
+		
+		
+		<!-- How Can We Help You?-->
+		<div class="container1">
+			<div class="left-panel">
+			  <img src="img/book.jpg" alt="Library Background">
+			</div>
+			<div class="right-panel">
+			  <h1>How Can We Help You?</h1>
+
+			  <div class="cards">
+				<div class="card1">
+				  <i data-lucide="layers" class="icon-large"></i>
+				  <h4><strong>Activity PSS</strong></h4>
+				  <p>Surf out our program activties here!</p><br>
+				  <a href="pss.html" target="_blank">Click Here</a>
+				</div>
+				
+				<div class="card1">
+				  <i data-lucide="check-square"class="icon-large"></i>
+				  <h4><strong>Check-In</strong></h4>
+				  <p>Check-In and Win!</p><br>
+				  <a href="checkin.html" target="_blank">Click Here</a>
+				</div>
+				
+				<div class="card1">
+				  <i data-lucide="book" class="icon-large"></i>
+				  <h4><strong>NILAM</strong></h4>
+				  <p>Surf out our NILAM activties here!</p><br>
+				  <a href="nilam.html" target="_blank">Click Here</a>
+				</div>
+				
+				<div class="card1">
+				  <i data-lucide="file-text" class="icon-large"></i>
+				  <h4><strong>Resources</strong></strong></h4>
+				  <p>Surf out various resources here!</p><br>
+				  <a href="resources.html" target="_blank">Click Here</a>
+				</div>
+			  </div>
+			</div>
+		  </div>
+
+		  <script>
+			lucide.createIcons(); // Initialize lucide icons
+		  </script>
+		  
+			<div>
+				<h1><center>Special Spaces</center></h1>
+			</div>
+		
+			
+			
+		  <!-- Flipping Card Special Spaces-->
+		   <div class="container2">
+			<!-- Card 1 -->
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+				<div class="flip-card-front">
+				  <img src="img/multimediaroom.jpg" alt="mroom">
+				  <div class="info">
+					<h2>Multimedia Room</h2>
+				  </div>
+				</div>
+				<div class="flip-card-back">
+					<p>A tech-equipped space where students can create and explore digital content through audio, video, and interactive media.</p>
+				</div>
+			  </div>
+			</div>
+			
+			<!-- Card 2 (Duplicate for demo) -->
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+				<div class="flip-card-front">
+				  <img src="img/screeningroom.jpg" alt="sroom">
+				  <div class="info">
+					<h2>Screening Room</h2>
+				  </div>
+				</div>
+				<div class="flip-card-back">
+					<p>A small theater-style room used for viewing educational films, presentations, and student projects.</p>
+				</div>
+			  </div>
+			</div>
+			
+			<!-- Card 3 -->
+			<div class="flip-card">
+			  <div class="flip-card-inner">
+				<div class="flip-card-front">
+				  <img src="img/studyroom.jpg" alt="stroom">
+				  <div class="info">
+					<h2>Study Room</h2>
+				  </div>
+				</div>
+				<div class="flip-card-back">
+					<p>A quiet and comfortable area designed for focused individual or group study.</p>
+				</div>
+			  </div>
+			</div>
+		</div>
+		
+		
+		<!-- Card Slider Other Facilities and Services-->
+		 <div class="slider-container">
+			<h1>Other Facilities and Services</h1>
+			<div class="card-slider" id="cardSlider1">
+			
+			  <!-- facilties 1-->
+			  <div class="card2">
+				<img src="img/borrow.jpg" alt="borrow">
+				<div class="card-content">
+				  <div class="card-title">Borrowing Books</div>
+				  <div class="card-description">Students can check out textbooks, novels, and reference books to support their learning and personal interests</div>
+				</div>
+			  </div>
+
+			  <!-- facilties 2-->
+			  <div class="card2">
+				<img src="img/print.jpeg" alt="computer">
+				<div class="card-content">
+				  <div class="card-title">Computer, Printing and Photostat</div>
+				  <div class="card-description">Computers with internet access are available for research, along with printing and photocopying services for schoolwork.</div>
+				</div>
+			  </div>
+			  
+			  <!-- facilties 3-->
+			  <div class="card2">
+				<img src="img/informational.jpg" alt="ispace">
+				<div class="card-content">
+				  <div class="card-title">Informational Space</div>
+				  <div class="card-description">A quiet area stocked with newspapers, magazines, and reference materials kiosk to help students stay informed and expand their knowledge.</div>
+				</div>
+			  </div>
+			  
+			  <!-- facilties 4-->
+			  <div class="card2">
+				<img src="img/discussion.jpg" alt="discuss">
+				<div class="card-content">
+				  <div class="card-title">Discussion Space</div>
+				  <div class="card-description">A shared space where students can collaborate, exchange ideas, and work on group assignments or projects.</div>
+				</div>
+			  </div>
+			<div class="nav-arrow nav-left" id="navLeft" onclick="cardslides(-1)">&#10094;</div>
+			<div class="nav-arrow nav-right" id="navRight" onclick="cardslides(1)">&#10095;</div>
+		  </div>
+		</div>
+		
+		
+	<footer class="footer">
+		<div class="footer-container">
+		  <!-- Operation Hours -->
+		  <div class="footer-section">
+			<h3>Operation Hours</h3>
+			<p>Monday - Friday<br>9 A.M. - 3 P.M.</p>
+			<p class="closed">Closed:-</p>
+			<p>Weekend<br>Public Holiday</p>
+		  </div>
+
+		  <!-- Contact -->
+		  <div class="footer-section">
+			<h3>Contact</h3>
+			<p><strong>SMK BANDAR PUNCAK JALIL</strong><br>
+			  Jalan PUJ7, Taman Puncak Jalil,<br>
+			 43300 Seri Kembangan, <br>
+			 Selangor</p>
+			<p>Email: BEA8670@moe.edu.my /<br> bea8670@btpnsel.edu.my</p>
+			<p>No Tel: +603-89990590</p>
+			<p>Fax: +603-89990592</p>
+
+		  </div>
+
+		  <!-- Location -->
+		  <div class="footer-section">
+			<h3>Location</h3>
+			<iframe
+			  src="https://maps.google.com/maps?width=600&height=400&hl=en&q=SMK%20BANDAR%20PUNCAK%20JALIL&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+			  width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		  </div>
+		</div>
+
+		<!-- Social & Footer Bottom -->
+		<div class="footer-bottom">
+		  <div class="social-links">
+			<a href="https://www.facebook.com/sepujaontop/?locale=ms_MY" target="_blank">Facebook</a> | 
+			<a href="https://www.instagram.com/sepujaontop?igsh=MWs2aG42am5qano4aQ==" target="_blank">Instagram</a> | 
+			<a href="http://www.youtube.com/@sepujaontop">Youtube</a> 
+		  </div>
+		  
+		  <p class="copyright">
+			This website for study purpose for code IMS458. Best browser for all devices : Google Chrome. Best viewed on displays. &copy; All right reserve (2025).
+			</p>
+		</div>
+	</footer>
+
+	</body>
+</html>
